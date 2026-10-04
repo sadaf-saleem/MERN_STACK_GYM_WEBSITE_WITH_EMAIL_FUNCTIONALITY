@@ -1,16 +1,79 @@
-# React + Vite
+# Gym Website with Email Functionality
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack gym website built to provide a user-friendly web experience with integrated email functionality for communication and inquiries.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Frontend**
 
-## React Compiler
+* React.js
+* Vite
+* React Router
+* Axios
+* Lucide React
+* React Spinners
+* React Toastify
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Backend**
 
-## Expanding the ESLint configuration
+* Node.js
+* Express.js
+* Nodemailer
+* CORS
+* dotenv
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+* Responsive gym website interface
+* Frontend and backend integration
+* Email functionality using Nodemailer
+* API-based communication
+* Interactive user interface
+* Loading indicators and toast notifications
+
+## Project Type
+
+Full Stack Web Application
+
+## Installation
+
+**1. Clone the repository**
+
+```bash
+git clone https://github.com/sadaf-saleem/MERN_STACK_GYM_WEBSITE_WITH_EMAIL_FUNCTIONALITY.git
+cd MERN_STACK_GYM_WEBSITE_WITH_EMAIL_FUNCTIONALITY
+```
+
+**2. Install frontend dependencies**
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+**3. Install backend dependencies**
+
+Open a new terminal:
+
+```bash
+cd backend
+npm install
+npm run dev
+```
+
+**4. Environment Variables**
+
+Create a `.env` file in the backend directory and configure the required environment variables for the email service and server, according to the backend code.
+
+## Tools
+
+* Git & GitHub
+* VS Code
+* REST API
+
+## Author
+
+**Sadaf Saleem**
+
+[GitHub Profile](https://github.com/sadaf-saleem)
